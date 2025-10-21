@@ -1,4 +1,4 @@
-#!$$IOCTOP/bin/$$IF(ARCH,$$ARCH,linux-86_64)/TEM_PhaseLock
+#!$$IOCTOP/bin/$$IF(ARCH,$$ARCH,rhel7-x86_64)/TEM_PhaseLock
 
 epicsEnvSet( "IOCNAME",	  "$$IOCNAME" )
 epicsEnvSet( "ENGINEER",  "$$ENGINEER" )

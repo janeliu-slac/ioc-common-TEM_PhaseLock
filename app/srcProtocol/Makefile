@@ -26,7 +26,7 @@ COPY_SUBDIR = protocol
 ######################################################################
 # Don't change these.
 include $(TOP)/configure/RULES
--include $(TOP)/configure/RULES.copy
+
 
 ######################################################################
 # Add additional RULES files, if necessary.
